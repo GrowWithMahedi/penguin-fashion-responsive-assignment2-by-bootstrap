@@ -1,1 +1,1 @@
-# penguin-fashion-responsive-assignment2-by-bootstrap
+# assignment-2
