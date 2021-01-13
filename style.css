@@ -17,8 +17,7 @@ h1{
     border: none;
     border-radius: 8px;
     padding: 10px 25px;
-    cursor: pointer;
-}
+  }
 .carousel-item{
     padding: 20px 45px;
 }
