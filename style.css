@@ -1,13 +1,24 @@
 .container{
     margin-bottom: 100px;
-    
+    background-color: #fff;
+      
 }
-
+.user-highlight{
+    color: #fabe4c;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
 .buy-now-button{
     background-color: #91ab2b;
     color: #fff;
     border: none;
     border-radius: 8px;
-    padding: 9px 25px;
+    padding: 10px 25px;
     cursor: pointer;
+}
+.carousel-item{
+    padding: 20px 45px;
 }
