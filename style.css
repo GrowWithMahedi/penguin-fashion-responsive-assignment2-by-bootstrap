@@ -2,6 +2,10 @@
     margin-bottom: 100px;
       
 }
+.top-bar{
+    background-color: #FFFBF0;
+    height: auto;
+}
 .nav-item{
     font-weight: bold;
 }
@@ -30,6 +34,7 @@ h1{
     border-radius: 8px;
     padding: 10px 25px;
 }
+
 .card{
     border: none;
     border-radius: 10px;
@@ -40,8 +45,8 @@ h1{
     border-top: none;
 }
 #categories img{
-    width: 270px;
-    height: 270px;
+    width: 180px;
+    height: 180px;
     align-self: center;
     background-color: #F1F1F1;
     border-radius: 10px;
@@ -61,4 +66,20 @@ h1{
 }
 #subscribe h6{
     color: gray;
+}
+#sumbit{
+    height: 300px;
+}
+#sumbit h6{
+    color: gray;
+}
+.submit-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, tomato 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 25px;
+}
+footer{
+    text-align: center;
 }

@@ -11,49 +11,51 @@
     <title>Penguin Fashion Responsive Assignment 2 by Bootstrap</title>
 </head>
 <body>
-    <div class="container ">
-      <nav class="navbar navbar-expand-md navbar-light  ">
-          <a class="navbar-brand" href="#">
-              <img src="images/weblogo.png" height="30px" alt="web logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-              </li>
+    <header class="top-bar">
+      <div class="container ">
+        <nav class="navbar navbar-expand-md navbar-light  ">
+            <a class="navbar-brand" href="#">
+                <img src="images/weblogo.png" height="30px" alt="web logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#categories">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#categories">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactus">Contact us</a>
-              </li>
+                <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#categories">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#categories">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#submit">Contact us</a>
+                </li>
+              </ul>
             </ul>
-          </ul>
-        </nav>
-  </div>
-  <section>
-    <div class="container">
-      <div id="carouselExampleControls" class="carousel slide top-bg" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row align-items-center">
-                  <div class="col-md-5">
-                      <h1><span class="user-highlight">BE THE PENGUINS</span></h1>
-                      <h1>OF WINTER</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button class="buy-now-button"><i class="fas fa-shopping-cart mr-1"></i> BUY NOW</button>
-                  </div>
-                  <div class="col-md-5">
-                      <img src="images/banner-images/topimages.png" class="d-block w-100" alt="...">
-                  </div>
+          </nav>
+    </div>
+    <section>
+      <main class="container">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide top-bg" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <h1><span class="user-highlight">BE THE PENGUINS</span></h1>
+                        <h1>OF WINTER</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button class="buy-now-button"><i class="fas fa-shopping-cart mr-1"></i> BUY NOW</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/topimages.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
               </div>
-            </div>
-  </section>
+    </header>
   <div class="container categories" id="categories">
     <h3>WOMEN JACKET</h3>
     <div class="card-deck">
@@ -129,26 +131,62 @@
         </div>
       </div>
     </div>
-  </div>
-   <div>
-      <div class="container">
-        <div id="carouselExampleControls" class="carousel slide top-bg" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row align-items-center">
-                    <div class="col-md-5">
-                      <h2>Find the Perfect Fit</h2>
-                      <p>Everybody is different, which is why we offer styles for every body.</p>
-                      <img src="images/other-images/image1.png" class="rounded float-end" height="100px" alt="web logo">
-                    </div>
-                    <div class="col-md-5">
-                        <img src="images/banner-images/buttonimages.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
     </section>
- 
-  
+     <section class="container mt-5 ">
+      <div class="container-fluid d-flex  align-items-center">
+        <div class="col-md-6 col-sm-6 col-xs-12 content">
+          <div class="col p-3 ">
+            <div class="p-3 shadow p-3 mb-5  rounded last-bg d-flex  ">
+              <div >
+                <img class="col-img" src="images/other-images/image1.png" alt="">
+              </div>
+              <div>
+                <h2>Find the perfect fie</h2>
+                <p>let us help you to look more smarter and dashing.</p>
+              </div>
+            </div>
+           </div>
+           <div class="col p-3">
+             <div class="p-3 shadow p-3 mb-5  rounded  last-bg d-flex ">
+              <div >
+                <img class="col-img" src="images/other-images/image2.png" alt="">
+              </div>
+              <div>
+                <h2>Find the perfect fie</h2>
+                <p>let us help you to look more smarter and dashing.</p>
+              </div>
+             </div>
+           </div>
+           <div class="col p-3">
+            <div class="p-3 shadow p-3 mb-5  rounded  last-bg d-flex">
+              <div >
+                <img class="col-img" src="images/other-images/image3.png" alt="">
+              </div>
+              <div>
+                <h2>Find the perfect fie</h2>
+                <p>let us help you to look more smarter and dashing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 content">
+          <img src="images/banner-images/buttonimages.png" alt="">
+        </div>
+      </div>
+    </section>
+   
+  </main>
+  <div class="container d-flex align-items-center justify-content-center orange-bg" id="submit">
+    <div>
+      <h6>Get updates on sales, Submit your Email ID please</h6>
+      <input class="form-control" type="text">
+      <button class="submit-now-button">SUBMIT</button>
+    </div>
+  </div>
+
+  <footer>
+    <small> ©2021. Penguin Fashion. All rights reserved.</small>
+  </footer>
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
