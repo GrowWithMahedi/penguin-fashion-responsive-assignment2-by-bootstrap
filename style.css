@@ -2,6 +2,9 @@
     margin-bottom: 100px;
       
 }
+.nav-item{
+    font-weight: bold;
+}
 .user-highlight{
     color: #fabe4c;
     font-family: 'Roboto', sans-serif;
@@ -9,6 +12,9 @@
 h1{
     color: black;
     font-family: 'Roboto', sans-serif;
+}
+.h3{
+    font-weight: bold;
 }
 .buy-now-button{
     background-color: #91ab2b;
@@ -18,9 +24,6 @@ h1{
     padding: 10px 25px;
   }
 
-.top-bg{
-    background-color: #FFFBF0;
-}
 .card{
     border: none;
     border-radius: 10px;
@@ -37,9 +40,6 @@ h1{
     background-color: #F1F1F1;
     border-radius: 10px;
 }
-.h3, h5 {
-    font-weight: bold;
-}
 .footer{
     bottom: 40px;
     display: flex;
@@ -49,4 +49,10 @@ h1{
 }
 .footer .container {
     max-width: 387px;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
 }
