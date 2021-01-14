@@ -23,7 +23,13 @@ h1{
     border-radius: 8px;
     padding: 10px 25px;
   }
-
+.submit-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, tomato 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
 .card{
     border: none;
     border-radius: 10px;
